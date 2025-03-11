@@ -1,0 +1,11 @@
+def check_number(num):
+    if num % 2 == 0:
+        print(f"{num} is an Even number.")
+    else:
+        print(f"{num} is an Odd number.")
+
+# Test cases
+check_number(4)  # Output: 4 Even.
+check_number(7)  # Output: 7 isOdd.
+check_number(-3) # Output: -3 Odd.
+check_number(0)  # Output: 0 Even.
